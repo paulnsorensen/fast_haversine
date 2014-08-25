@@ -1,4 +1,6 @@
 # FastHaversine
+[![Build Status](https://travis-ci.org/paulnsorensen/fast_haversine.svg?branch=master)](https://travis-ci.org/paulnsorensen/fast_haversine)
+[![Code Climate](https://codeclimate.com/github/paulnsorensen/fast_haversine/badges/gpa.svg)](https://codeclimate.com/github/paulnsorensen/fast_haversine)
 
 Haversine calculation written in Ruby that supports
 distances calculations in both miles and kilometers
