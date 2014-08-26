@@ -43,6 +43,20 @@ During specs, I ran the following benchmark:
 0.700000   0.000000   0.700000 (  0.700143)
 ```
 
+This is much faster than a common ruby implementation:
+
+```ruby
+1_000_000.times do
+  RubyHaversine.distance_between(
+    [37.7833, -122.4167],
+    [41.8819, -87.6278],
+    units: :mi
+  )
+end
+
+7.510000   0.320000   7.830000 (  7.930863)
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/fast_haversine/fork )

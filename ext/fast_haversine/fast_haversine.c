@@ -50,7 +50,7 @@ static VALUE rb_distance_in_km(
 }
 
 void Init_fast_haversine() {
-  VALUE module = rb_define_module('FastHaversine');
-  rb_define_singleton_method(module, 'distance_in_mi', rb_distance_in_mi, 4);
-  rb_define_singleton_method(module, 'distance_in_km', rb_distance_in_km, 4);
+  VALUE module = rb_define_module("FastHaversine");
+  rb_define_singleton_method(module, "distance_in_mi", rb_distance_in_mi, 4);
+  rb_define_singleton_method(module, "distance_in_km", rb_distance_in_km, 4);
 }
