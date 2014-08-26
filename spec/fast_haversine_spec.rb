@@ -9,13 +9,13 @@ describe FastHaversine do
     it 'calculates distance in miles' do
       distance = FastHaversine.distance_between(sf, chi, :mi)
 
-      expect(distance).to eql(1854.489697974166)
+      expect(distance.round(12)).to eql(1854.489697974166)
     end
 
     it 'calculates distance in kilometers' do
       distance = FastHaversine.distance_between(sf, chi, :km)
 
-      expect(distance).to eql(2984.511869636476)
+      expect(distance.round(12)).to eql(2984.511869636476)
     end
   end
 end
