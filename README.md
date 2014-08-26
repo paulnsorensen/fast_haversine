@@ -1,5 +1,7 @@
 # FastHaversine
+[![Gem Version](https://badge.fury.io/rb/fast_haversine.svg)](http://badge.fury.io/rb/fast_haversine)
 [![Build Status](https://travis-ci.org/paulnsorensen/fast_haversine.svg?branch=master)](https://travis-ci.org/paulnsorensen/fast_haversine)
+[![Dependency Status](https://gemnasium.com/paulnsorensen/fast_haversine.svg)](https://gemnasium.com/paulnsorensen/fast_haversine)
 [![Code Climate](https://codeclimate.com/github/paulnsorensen/fast_haversine/badges/gpa.svg)](https://codeclimate.com/github/paulnsorensen/fast_haversine)
 
 Haversine calculation written in Ruby that supports
